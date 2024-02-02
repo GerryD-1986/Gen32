@@ -1,0 +1,56 @@
+body{
+    background-color: #aec2ea;
+}
+#cajaPadre{
+    width: 600px;
+    border: 1px none;
+}
+
+.listasimple >li{
+    background-color:#00331a;
+    font-family: 'Sofia', sans-serif;
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 350px;
+    padding: 15px 10px 0px 10px;
+    margin-top: 5px;
+}
+.listasimple >li >p{
+    color: #00e677;
+    margin-top: 2px;
+}
+.listasimple li > ul{
+    
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    
+    border: 1px none;
+
+    list-style: none;
+    z-index: 1000;
+}
+
+#caja1{
+    float: left;
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+
+}
+#caja3{
+    float: left;
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+}
+#caja2{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+}
+.restaurar{
+    clear:both;
+}
