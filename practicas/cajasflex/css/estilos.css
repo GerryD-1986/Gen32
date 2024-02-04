@@ -211,7 +211,6 @@ p{
 }
 
 #cajapadre8 >div{
-    height: 145px;
     margin: 5px;
     background-color: #000d33;
 }
@@ -336,4 +335,82 @@ p{
 }
 #caja52{
     flex: 1 1 400px;
+}
+
+#cajapadre13{
+    display: flex;
+    width: 600px;
+    border: 1px solid;
+    justify-content: center;
+}
+
+#cajapadre13 >div{
+    height: 145px;
+    margin: 5px;
+    background-color: #000d33;
+}
+
+#caja53{
+    width: 100px;
+}
+#caja54{
+    width: 100px;
+}
+#caja55{
+    width: 100px;
+}
+#caja56{
+    flex: 100px;
+}
+
+#cajapadre14{
+    display: flex;
+    width: 600px;
+    border: 1px solid;
+    justify-content: space-between;
+}
+
+#cajapadre14 >div{
+    height: 145px;
+    margin: 5px;
+    background-color: #000d33;
+}
+
+#caja57{
+    width: 100px;
+}
+#caja58{
+    width: 100px;
+}
+#caja59{
+    width: 100px;
+}
+#caja60{
+    flex: 100px;
+}
+
+#cajapadre15{
+    display: flex;
+    width: 600px;
+    border: 1px solid;
+    justify-content: flex-start;
+}
+
+#cajapadre15 >div{
+    height: 145px;
+    margin: 5px;
+    background-color: #000d33;
+}
+
+#caja61{
+    width: 100px;
+}
+#caja62{
+    width: 100px;
+}
+#caja63{
+    width: 100px;
+}
+#caja64{
+    flex: 100px;
 }
